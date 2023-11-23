@@ -1,0 +1,73 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  color: #ffffff;
+  padding: 20px;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('newspaper3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(252, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.background-overlay {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+button.view-posts-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px auto 0;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-form, .post-form ,.profile-page{
+  width: 80%;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 255, 128, 0.7);
+  padding: 20px;
+  border: 3px dashed rgb(0, 0, 0);
+  height: 230px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5); /* 3D shadow effect */
+}
+
+.background-image {
+  /* background-image: url('newspaper2.jpeg');  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   /* Adjust the height as needed */
+}
+
+/* Additional CSS styling can be added as per your project's design requirements */
